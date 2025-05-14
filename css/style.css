@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+	--color-general:#66615b;
+	--color-titulos:#111111;
+	--color-blanco:#f5fafd;
+	--color-iconos:#888888;
+	--fondo-footer:#252422;
+	--letra-footer:#fff;
+	--color-naranja:#f5593d;
+	--color-icono-download:#888;
+	--fondo-screenshots:#F5FAFD;
+}
+
+body{
+	font-family:"Roboto", sans-serif;
+	color: var(--color-general);
+}
+
+header{
+	font-family: "Dosis", sans-serif;
+	font-weight: 600;
+	background-color: transparent;
+	padding: 10px 0;
+	position: absolute;
+	top:0;
+	width: 100%;
+	border-bottom: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Dosis", sans-serif;
+	font-weight: 600;
+	color: var(--color-titulos);
+}
+
+.section{
+	padding: 100px;
+}
+
+#hero{
+	background-image: url("../img/bg-site.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	color: var(--color-blanco);
+	padding-top: 200px;
+}
+
+#hero h1{
+	color: var(--color-blanco);
+}
+
+.btn-primary{
+	background-color: transparent;
+	border-color: var(--color-blanco);
+	text-transform:uppercase;
+	font-size: 12px;
+	padding: 10px 20px;
+	border-radius: 45px;
+	font-weight: 500;
+	border-width: medium;
+}
+
+.btn-primary:hover{
+	background-color: var(--color-blanco);
+	color: var(--color-naranja);
+	border-color: transparent;
+}
+
+.feature-card{
+	padding: 20px; 
+}
+
+.icon{
+	color: var(--color-naranja);
+	font-size:50px;
+}
+
+#screenshots{
+	background-color:var(--fondo-screenshots); 
+	padding: 100px 100px 0 100px;
+}
+
+.screenshot-slide{
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+#download{
+	background-image: url("../img/bg-site.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#download h2{
+	color: var(--color-blanco);
+	padding-bottom: 50px;
+}
+
+.download-card{
+	background-color: var(--color-blanco);
+	border-radius: 10px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--letra-footer);
+}
+
+footer a{
+	color: var(--letra-footer);
+	font-size: 25px;
+	padding: 10px;
+}
+
+footer a:hover{
+	color: var(--color-iconos);
+}

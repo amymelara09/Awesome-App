@@ -91,14 +91,24 @@ h1, h2, h3, h4, h5, h6{
 	background-repeat: no-repeat;
 }
 
+
 #download h2{
 	color: var(--color-blanco);
 	padding-bottom: 50px;
+	text-align: center;
 }
 
 .download-card{
 	background-color: var(--color-blanco);
 	border-radius: 10px;
+	box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
+	padding: 20px;
+	margin: 10px;
+	max-width: 350px;
+}
+
+.icon-download{
+	font-size:70px;
 }
 
 footer{
